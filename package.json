@@ -4,13 +4,25 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "node ./node_modules/webpack/bin/webpack --watch --config ./config/webpack.dev.js",
+    "dev": "node ./node_modules/webpack/bin/webpack --config ./config/webpack.dev.js",
+    "dev:watch": "node ./node_modules/webpack/bin/webpack --watch --config ./config/webpack.dev.js",
     "prod": "node ./node_modules/webpack/bin/webpack --config ./config/webpack.prod.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "css-loader": "^1.0.0",
+    "digix-ui": "^2.3.21",
+    "extract-loader": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "postcss-cli": "^6.0.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "svg-inline-loader": "^0.8.0",
     "webpack": "^4.18.0",
     "webpack-merge": "^4.1.4"
   },
